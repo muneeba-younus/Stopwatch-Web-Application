@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.display {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: inline-block;
+    margin: 15% 0 5% 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.buttons>button {
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.buttons>button, .buttons>button:active, .buttons>button:focus {
+    border: none;
+    outline: none;
+}
+
+.fa-play-circle, .fa-pause-circle, .fa-redo, .fa-flag {
+    color: rgb(255, 58, 163);
+}
