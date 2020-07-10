@@ -1,18 +1,24 @@
+
 * {
     padding: 0;
     margin: 0;
 }
 
-#particles-js {
-    background: linear-gradient(rgb(25, 134, 211),rgb(72, 236, 72));
+body {
     height: auto;
+}
+
+#particles-js {
+    background: linear-gradient(rgb(25, 134, 211), rgb(72, 236, 72));
+    height: 100vh;
+    width: auto;
 }
 
 .container-fluid {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
     margin-top: 10%;
+    position: absolute;
 }
 
 .display {
@@ -36,5 +42,15 @@
 }
 
 .fa-play-circle, .fa-pause-circle, .fa-redo, .fa-flag {
-    color: rgb(255, 58, 163);
+    color: black;
+}
+.stopwatch-icon{
+    width: 100px;
+    padding-bottom: 20px;
+}
+.heading{
+    font-size: 60px;
+    padding-bottom: 20px;
+    font-family: 'Cookie', cursive;
+    font-weight: 500;
 }
