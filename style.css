@@ -3,22 +3,20 @@
     margin: 0;
 }
 
-body {
-    background-image: url(bg.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#particles-js {
+    background: linear-gradient(rgb(25, 134, 211),rgb(72, 236, 72));
+    height: auto;
+}
+
+.container-fluid {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: 10%;
 }
 
 .display {
-    background-color: rgba(0, 0, 0, 0.7);
     color: white;
-    display: inline-block;
-    margin: 15% 0 5% 0;
-    padding: 10px;
     border-radius: 10px;
     font-size: 30px;
     font-weight: 400;
@@ -28,7 +26,7 @@ body {
     font-size: 20px;
     width: 100px;
     height: 30px;
-    margin: 2px;
+    margin: 10px;
     border-radius: 5px;
 }
 
