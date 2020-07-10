@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#particles-js {
+    background: linear-gradient(rgb(25, 134, 211),rgb(72, 236, 72));
+    height: auto;
+}
+
+.container-fluid {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: 10%;
+}
+
+.display {
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.buttons>button {
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.buttons>button, .buttons>button:active, .buttons>button:focus {
+    border: none;
+    outline: none;
+}
+
+.fa-play-circle, .fa-pause-circle, .fa-redo, .fa-flag {
+    color: rgb(255, 58, 163);
+}
